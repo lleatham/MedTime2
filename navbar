@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.medtime.navbartrial2.MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="395dp"
+            android:layout_height="64dp"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="451dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="67dp"
+            android:layout_height="45dp"
+            android:background="@drawable/CalendarIcon"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="460dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="56dp"
+            android:layout_height="46dp"
+            android:background="@drawable/HomeIcon"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="460dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="49dp"
+            android:layout_height="46dp"
+            android:background="@drawable/BadgesIcon"
+            tools:layout_editor_absoluteX="309dp"
+            tools:layout_editor_absoluteY="460dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="56dp"
+            android:layout_height="46dp"
+            android:background="@drawable/MyMedsIcon"
+            tools:layout_editor_absoluteX="213dp"
+            tools:layout_editor_absoluteY="460dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
